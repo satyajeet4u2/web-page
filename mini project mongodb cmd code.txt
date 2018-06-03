@@ -1,5 +1,5 @@
-mongod
-mongo
+mongod    // for connecting to server
+mongo     // connected through a port number
 use mini_project ;
 db.createCollection("protfolio")
 db.protfolio.insert({'cno':1,'cname':'angularjs','cpriority':2}) ;
