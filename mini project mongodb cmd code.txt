@@ -1,0 +1,9 @@
+mongod
+mongo
+use mini_project ;
+db.createCollection("protfolio")
+db.protfolio.insert({'cno':1,'cname':'angularjs','cpriority':2}) ;
+db.protfolio.insert({'cno':2,'cname':'nodejs','cpriority':1}) ;
+db.protfolio.insert({'cno':3,'cname':'mongodb','cpriority':3}) ;
+db.protfolio.insert({'cno':4,'cname':'reactjs','cpriority':4}) ;
+db.protfolio.find();

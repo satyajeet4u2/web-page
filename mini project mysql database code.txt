@@ -1,0 +1,15 @@
+create database mini_project
+use mini_project ;
+create table login_details(uname varchar(20),upwd varchar(20)) ;
+insert into login_details values('admin','admin') ;
+select *from login_details ;
+create table about(sno integer, type varchar(20),priority integer) ;
+insert into about values(1,'traing',1) ;
+insert into about values(2,'devlopment',2) ;
+insert into about values(3,'placment',3) ;
+insert into about values(4,'service',4) ;
+select *from about ;
+
+
+
+
