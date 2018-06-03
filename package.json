@@ -1,0 +1,11 @@
+{
+  "name": "mini_project",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "4.16.2",
+    "mysql": "^2.15.0",
+    "mongodb": "2.2.33",
+    "body-parser": "^1.18.2",
+    "jwt-simple": "^0.5.1"
+  }
+}
